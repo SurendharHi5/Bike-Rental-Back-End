@@ -18,7 +18,7 @@ const bookingSchema = new mongoose.Schema({
         from:{type: String},
         to:{type: String}
     },
-    transactionId : {type: String}
+    orderId : {type: String}
 },
     {timestamps: true}
 )
